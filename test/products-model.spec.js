@@ -3,7 +3,7 @@ const expect = chai.expect;
 
 const db = require('./../db/products');
 
-describe('Test Product model methods', function () {
+describe.skip('Test Product model methods', function () {
   it('should respond to create', function () {
     expect(db).to.respondTo('create');
   });
